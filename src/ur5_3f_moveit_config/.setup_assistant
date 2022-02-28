@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/tomislav/ros-projekti/ROS_PROTO/ros_ws/src/ur5_3f/ur5_3f_description/urdf/UR5_3f_macro.xacro.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur5.srdf
+  CONFIG:
+    author_name: test
+    author_email: test@tet.tet
+    generated_timestamp: 1645790151

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro"
+	name="UR5_3f">
+
+	<xacro:arg name="limited" default="true"/>
+
+	<!-- UR from ROS industrial repos -->
+	<xacro:include filename="$(find ur_description)/urdf/ur5_robot.urdf.xacro"/>
+
+	<xacro:ur5_robot prefix="simple_arm_" joint_limited="false"/>
+	
+	<!-- Robotiq from ROS industrial repos -->
+	<xacro:include filename="$(find robotiq_3f_gripper_visualization)/cfg/robotiq_hand_macro.urdf.xacro"/>
+	<xacro:robotiq_hand prefix="simple_gripper_" reflect="1" parent="simple_arm_tool0">
+		<origin xyz="0 0 0" rpy="${pi/2} ${pi/2} 0"/>
+	</xacro:robotiq_hand>
+
+	
+	<gazebo>
+		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+		</plugin>
+	</gazebo>
+	
+
+</robot>
