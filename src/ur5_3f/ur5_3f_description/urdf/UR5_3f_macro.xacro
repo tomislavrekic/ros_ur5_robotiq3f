@@ -21,6 +21,8 @@
       <origin xyz="0 0 0.05" rpy="${pi/2} 0 0"/>
     </xacro:robotiq_hand>
 
+    <xacro:include filename="$(find ur5_3f)/ur5_3f_description/urdf/robotiq_3f_gripper.transmission.xacro"/>
+    <xacro:robotiq_3f_gripper_transmission prefix="r3f_"/>
 
   <link name="world" />
 

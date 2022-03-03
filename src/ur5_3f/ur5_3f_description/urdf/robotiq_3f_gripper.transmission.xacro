@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:macro name="robotiq_3f_gripper_transmission" params="prefix">
+
+     <transmission name="palm_finger_1_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}palm_finger_1_joint">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="palm_finger_1_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_1_1_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_1_joint_1">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_1_1_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_1_2_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_1_joint_2">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_1_2_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_1_3_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_1_joint_3">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_1_3_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+
+    <transmission name="palm_finger_2_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}palm_finger_2_joint">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="palm_finger_2_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_2_1_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_2_joint_1">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_2_1_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_2_2_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_2_joint_2">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_2_2_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_2_3_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_2_joint_3">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_2_3_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+
+    <transmission name="palm_finger_middle_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}palm_finger_middle_joint">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="palm_finger_middle_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_middle_1_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_middle_joint_1">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_middle_1_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_middle_2_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_middle_joint_2">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_middle_2_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <transmission name="finger_middle_3_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}finger_middle_joint_3">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="finger_middle_3_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+        
+    </xacro:macro>
+
+</robot>
