@@ -2,7 +2,7 @@
 <launch>
   <arg name="paused" default="false"/>
   <arg name="gazebo_gui" default="true"/>
-  <arg name="urdf_path" default="/home/tomislav/ros-projekti/ROS_PROTO/ros_ws/src/ur5_3f/ur5_3f_description/urdf/UR5_3f_macro.xacro.urdf"/>
+  <arg name="urdf_path" default="$(find ur5_3f)/ur5_3f_description/urdf/UR5_3f_macro.xacro.urdf"/>
 
   <!-- startup simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">

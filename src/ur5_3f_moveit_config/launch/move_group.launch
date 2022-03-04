@@ -54,14 +54,14 @@
   <!-- Trajectory Execution Functionality -->
   <include ns="move_group" file="$(find ur5_3f_moveit_config)/launch/trajectory_execution.launch.xml" if="$(arg allow_trajectory_execution)">
     <arg name="moveit_manage_controllers" value="true" />
-    <arg name="moveit_controller_manager" value="ur5" unless="$(arg fake_execution)"/>
+    <arg name="moveit_controller_manager" value="ur5_3f" unless="$(arg fake_execution)"/>
     <arg name="moveit_controller_manager" value="fake" if="$(arg fake_execution)"/>
     <arg name="fake_execution_type" value="$(arg fake_execution_type)" />
   </include>
 
   <!-- Sensors Functionality -->
   <include ns="move_group" file="$(find ur5_3f_moveit_config)/launch/sensor_manager.launch.xml" if="$(arg allow_trajectory_execution)">
-    <arg name="moveit_sensor_manager" value="ur5" />
+    <arg name="moveit_sensor_manager" value="ur5_3f" />
   </include>
 
   <!-- Start the actual move_group node/action server -->

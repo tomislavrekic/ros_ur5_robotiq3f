@@ -1,11 +1,11 @@
 moveit_setup_assistant_config:
   URDF:
-    package: ""
-    relative_path: /home/tomislav/ros-projekti/ROS_PROTO/ros_ws/src/ur5_3f/ur5_3f_description/urdf/UR5_3f_macro.xacro.urdf
+    package: ur5_3f
+    relative_path: ur5_3f_description/urdf/UR5_3f_macro.xacro.urdf
     xacro_args: ""
   SRDF:
-    relative_path: config/ur5.srdf
+    relative_path: config/ur5_3f.srdf
   CONFIG:
     author_name: test
-    author_email: test@tet.tet
-    generated_timestamp: 1645790151
+    author_email: test@test.test
+    generated_timestamp: 1646396203

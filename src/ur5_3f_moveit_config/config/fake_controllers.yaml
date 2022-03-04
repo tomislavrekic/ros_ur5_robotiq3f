@@ -8,23 +8,6 @@ controller_list:
       - wrist_1_joint
       - wrist_2_joint
       - wrist_3_joint
-  - name: fake_gripper_controller
-    type: $(arg fake_execution_type)
-    joints:
-      - r3f_palm_finger_1_joint
-      - r3f_finger_1_joint_1
-      - r3f_finger_1_joint_2
-      - r3f_finger_1_joint_3
-      - r3f_palm_finger_2_joint
-      - r3f_finger_2_joint_1
-      - r3f_finger_2_joint_2
-      - r3f_finger_2_joint_3
-      - r3f_palm_finger_middle_joint
-      - r3f_finger_middle_joint_1
-      - r3f_finger_middle_joint_2
-      - r3f_finger_middle_joint_3
 initial:  # Define initial robot poses.
   - group: arm
-    pose: home
-  - group: gripper
-    pose: open
+    pose: pose1
