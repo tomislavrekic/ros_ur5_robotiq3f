@@ -118,9 +118,13 @@
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_2" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_3" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_median_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_median_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_median_bar_underactuated" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_paradistal_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_paraproximal_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Adjacent" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_2_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_0" link2="r3f_finger_2_link_1" reason="Never" />
@@ -159,6 +163,7 @@
     <disable_collisions link1="r3f_finger_1_link_1" link2="r3f_finger_1_link_median_bar_underactuated" reason="Default" />
     <disable_collisions link1="r3f_finger_1_link_1" link2="r3f_finger_1_link_paradistal_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_1" link2="r3f_finger_1_link_paramedian_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_1_link_1" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_1" link2="r3f_finger_1_link_paraproximal_bar" reason="Default" />
     <disable_collisions link1="r3f_finger_1_link_1" link2="r3f_finger_1_link_proximal_actuating_bar" reason="Default" />
     <disable_collisions link1="r3f_finger_1_link_1" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Default" />
@@ -223,6 +228,8 @@
     <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_1_link_paradistal_hinge" reason="Default" />
     <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_1_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_1_link_paraproximal_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_1_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_2_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_3" link2="r3f_finger_2_link_1" reason="Never" />
@@ -249,6 +256,7 @@
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_1_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_1_link_paraproximal_bar" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_1_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_2_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_2_link_1" reason="Never" />
@@ -271,6 +279,7 @@
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_actuating_hinge" link2="wrist_3_link" reason="Never" />
@@ -279,6 +288,8 @@
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_1_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_1_link_paraproximal_bar" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_1_link_proximal_actuating_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_2_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_2_link_1" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_2_link_median_actuating_hinge" reason="Never" />
@@ -297,11 +308,14 @@
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_median_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_1_link_paradistal_hinge" reason="Default" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_1_link_paramedian_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="User" />
+    <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_1_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_1_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_2_link_0" reason="Never" />
@@ -330,11 +344,13 @@
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_median_bar_underactuated" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_1_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_1_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_1_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_2_link_0" reason="Never" />
@@ -363,10 +379,12 @@
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paradistal_hinge" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_1_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_1_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_1_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_2_link_0" reason="Never" />
@@ -395,6 +413,7 @@
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paramedian_hinge" link2="wrist_3_link" reason="Never" />
@@ -459,6 +478,7 @@
     <disable_collisions link1="r3f_finger_1_link_paraproximal_bar" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paraproximal_bar" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paraproximal_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_paraproximal_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_paraproximal_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_paraproximal_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_proximal_actuating_bar" link2="r3f_finger_1_link_proximal_actuating_hinge" reason="Adjacent" />
@@ -482,6 +502,7 @@
     <disable_collisions link1="r3f_finger_1_link_proximal_actuating_bar" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_proximal_actuating_bar" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_proximal_actuating_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_1_link_proximal_actuating_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_1_link_proximal_actuating_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_proximal_actuating_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_1_link_proximal_actuating_hinge" link2="r3f_finger_2_link_0" reason="Never" />
@@ -518,9 +539,13 @@
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_2" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_3" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_median_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_median_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_median_bar_underactuated" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_paradistal_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_paraproximal_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Adjacent" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_middle_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_0" link2="r3f_finger_middle_link_1" reason="Never" />
@@ -546,6 +571,7 @@
     <disable_collisions link1="r3f_finger_2_link_1" link2="r3f_finger_2_link_median_bar_underactuated" reason="Default" />
     <disable_collisions link1="r3f_finger_2_link_1" link2="r3f_finger_2_link_paradistal_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_1" link2="r3f_finger_2_link_paramedian_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_2_link_1" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_1" link2="r3f_finger_2_link_paraproximal_bar" reason="Default" />
     <disable_collisions link1="r3f_finger_2_link_1" link2="r3f_finger_2_link_proximal_actuating_bar" reason="Default" />
     <disable_collisions link1="r3f_finger_2_link_1" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Default" />
@@ -585,6 +611,8 @@
     <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_2_link_paradistal_hinge" reason="Default" />
     <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_2_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_2_link_paraproximal_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_2_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_middle_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_3" link2="r3f_finger_middle_link_median_actuating_hinge" reason="Never" />
@@ -601,6 +629,7 @@
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_2_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_2_link_paraproximal_bar" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_2_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_middle_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_middle_link_1" reason="Never" />
@@ -615,6 +644,7 @@
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_actuating_hinge" link2="wrist_3_link" reason="Never" />
@@ -623,6 +653,8 @@
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_2_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_2_link_paraproximal_bar" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_2_link_proximal_actuating_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_middle_link_0" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_middle_link_1" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_middle_link_2" reason="Never" />
@@ -636,11 +668,14 @@
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_median_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_2_link_paradistal_hinge" reason="Default" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_2_link_paramedian_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="User" />
+    <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_2_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_2_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_middle_link_0" reason="Never" />
@@ -649,11 +684,13 @@
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_median_bar_underactuated" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_2_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_2_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_2_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_middle_link_0" reason="Never" />
@@ -662,10 +699,12 @@
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paradistal_hinge" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_2_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_2_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_2_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_middle_link_0" reason="Never" />
@@ -675,6 +714,7 @@
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paramedian_hinge" link2="wrist_3_link" reason="Never" />
@@ -706,6 +746,7 @@
     <disable_collisions link1="r3f_finger_2_link_paraproximal_bar" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paraproximal_bar" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paraproximal_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_paraproximal_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_paraproximal_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_paraproximal_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_proximal_actuating_bar" link2="r3f_finger_2_link_proximal_actuating_hinge" reason="Adjacent" />
@@ -722,6 +763,7 @@
     <disable_collisions link1="r3f_finger_2_link_proximal_actuating_bar" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_proximal_actuating_bar" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_proximal_actuating_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_2_link_proximal_actuating_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_2_link_proximal_actuating_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_proximal_actuating_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_2_link_proximal_actuating_hinge" link2="r3f_finger_middle_link_0" reason="Never" />
@@ -745,9 +787,13 @@
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_2" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_3" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_median_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_median_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_median_bar_underactuated" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_paradistal_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_paraproximal_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Adjacent" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="r3f_palm" reason="Adjacent" />
     <disable_collisions link1="r3f_finger_middle_link_0" link2="wrist_1_link" reason="Never" />
@@ -760,6 +806,7 @@
     <disable_collisions link1="r3f_finger_middle_link_1" link2="r3f_finger_middle_link_median_bar_underactuated" reason="Default" />
     <disable_collisions link1="r3f_finger_middle_link_1" link2="r3f_finger_middle_link_paradistal_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_1" link2="r3f_finger_middle_link_paramedian_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_middle_link_1" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_1" link2="r3f_finger_middle_link_paraproximal_bar" reason="Default" />
     <disable_collisions link1="r3f_finger_middle_link_1" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Default" />
     <disable_collisions link1="r3f_finger_middle_link_1" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Default" />
@@ -786,6 +833,8 @@
     <disable_collisions link1="r3f_finger_middle_link_3" link2="r3f_finger_middle_link_paradistal_hinge" reason="Default" />
     <disable_collisions link1="r3f_finger_middle_link_3" link2="r3f_finger_middle_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_3" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_3" link2="r3f_finger_middle_link_paraproximal_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_middle_link_3" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_3" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_3" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_3" link2="wrist_2_link" reason="Never" />
@@ -796,6 +845,7 @@
     <disable_collisions link1="r3f_finger_middle_link_median_actuating_hinge" link2="r3f_finger_middle_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_actuating_hinge" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_actuating_hinge" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_median_actuating_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_median_actuating_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_actuating_hinge" link2="r3f_palm" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_actuating_hinge" link2="wrist_1_link" reason="Never" />
@@ -806,24 +856,33 @@
     <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="r3f_finger_middle_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="r3f_finger_middle_link_paraproximal_bar" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="User" />
+    <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="User" />
+    <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="r3f_finger_middle_link_paradistal_hinge" reason="Default" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="r3f_finger_middle_link_paramedian_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="User" />
+    <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="r3f_finger_middle_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_median_bar_underactuated" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="r3f_finger_middle_link_paramedian_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="r3f_finger_middle_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paradistal_hinge" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paramedian_hinge" link2="r3f_finger_middle_link_paraproximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_paramedian_hinge" link2="r3f_finger_middle_link_paraproximal_bar" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_paramedian_hinge" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paramedian_hinge" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paramedian_hinge" link2="r3f_palm" reason="Never" />
@@ -839,9 +898,11 @@
     <disable_collisions link1="r3f_finger_middle_link_paraproximal_actuating_hinge" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paraproximal_bar" link2="r3f_finger_middle_link_proximal_actuating_bar" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paraproximal_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Never" />
+    <disable_collisions link1="r3f_finger_middle_link_paraproximal_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_paraproximal_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_paraproximal_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_proximal_actuating_bar" link2="r3f_finger_middle_link_proximal_actuating_hinge" reason="Adjacent" />
+    <disable_collisions link1="r3f_finger_middle_link_proximal_actuating_bar" link2="r3f_palm" reason="User" />
     <disable_collisions link1="r3f_finger_middle_link_proximal_actuating_bar" link2="wrist_1_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_proximal_actuating_bar" link2="wrist_2_link" reason="Never" />
     <disable_collisions link1="r3f_finger_middle_link_proximal_actuating_hinge" link2="r3f_palm" reason="Default" />

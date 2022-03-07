@@ -334,7 +334,7 @@
   </joint>
   <!-- joint attaching parent link to robotiq hand -->
   <joint name="r3f_robotiq_hand_joint" type="fixed">
-    <origin rpy="1.57079632679 0 0" xyz="0 0 0.1"/>
+    <origin rpy="1.57079632679 0 0" xyz="0 0 0.055"/>
     <parent link="tool0"/>
     <child link="r3f_palm"/>
   </joint>
