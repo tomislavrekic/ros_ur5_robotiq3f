@@ -22,12 +22,6 @@
         <joint name="wrist_3_joint" value="3.1589" />
     </group_state>
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
-    <passive_joint name="shoulder_pan_joint" />
-    <passive_joint name="shoulder_lift_joint" />
-    <passive_joint name="elbow_joint" />
-    <passive_joint name="wrist_1_joint" />
-    <passive_joint name="wrist_2_joint" />
-    <passive_joint name="wrist_3_joint" />
     <passive_joint name="r3f_palm_finger_1_joint" />
     <passive_joint name="r3f_finger_1_joint_1" />
     <passive_joint name="r3f_finger_1_joint_2" />
