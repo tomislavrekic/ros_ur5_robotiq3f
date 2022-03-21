@@ -1,26 +1,18 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro"
-       name="ur5_3f" >
+       name="ur5_3f">
 
   <xacro:arg name="transmission_hw_interface" default="hardware_interface/EffortJointInterface"/>
 
   <!-- common stuff -->
-  <xacro:include filename="$(find ur5_3f)/ur5_3f_description/urdf/common.gazebo.xacro" />
+  <xacro:include filename="$(find ur5_3f)/ur5_3f_description/urdf/common.gazebo.xacro"/>
 
   <!-- ur5 -->
-  <xacro:include filename="$(find ur5_3f)/ur5_3f_description/urdf/ur5.urdf.xacro" />
+  <xacro:include filename="$(find ur5_3f)/ur5_3f_description/urdf/ur5.urdf.xacro"/>
 
   <!-- arm -->
   <xacro:ur5_robot prefix="" joint_limited="false"
-    transmission_hw_interface="$(arg transmission_hw_interface)"
-  />
-
-<!--  <link name="hand_anchor_link"/>
-  <joint name="hand_anchor_joint" type="fixed">
-    <parent link="base_link" />
-    <child link = "hand_anchor_link" />
-    <origin xyz="0.0 1.0 0.0" rpy="0.0 0.0 0.0" />
-  </joint>-->
+    transmission_hw_interface="$(arg transmission_hw_interface)"/>
 
   <!-- Robotiq from ROS industrial repos -->
     <xacro:include filename="$(find robotiq_3f_gripper_visualization)/cfg/robotiq_hand_macro.urdf.xacro"/>
@@ -28,13 +20,7 @@
       <origin xyz="0 0 0.055" rpy="${pi/2} 0 0"/>
     </xacro:robotiq_hand>
 
-   <!-- <xacro:include filename="$(find ur5_3f)/ur5_3f_description/urdf/robotiq_3f_gripper.transmission.xacro"/>
-    <xacro:robotiq_3f_gripper_transmission prefix="r3f_"/>-->
-
   <link name="world" />
-
-
-
   <joint name="world_joint" type="fixed">
     <parent link="world" />
     <child link = "base_link" />
@@ -42,8 +28,7 @@
   </joint>
 
   <!-- plugin for the RobotiQ hand -->
-  <gazebo>
-    
+  <gazebo>    
     <plugin name="robotiq_hand_plugin" filename="libRobotiqHandPlugin.so">
       <kp_position>10.0</kp_position>
       <kd_position>0.5</kd_position>
@@ -51,7 +36,4 @@
       <topic_command>/Robotiq3FGripperRobotOutput</topic_command>
     </plugin>
   </gazebo>
-
-
-
 </robot>
