@@ -5,3 +5,15 @@ stavi repoe u src:
 
 install dependencies & build workspace
 
+za svaki terminal:
+$ source devel/setup.bash 
+
+za pokretanje simulacije:
+$ roslaunch ur5_3f custom_gazebo.launch
+
+Provjeri jel kontrola sake moguca:
+$ rostopic list
+treba biti topic /Robotiq3FGripperRobotOutput pri vrhu
+
+za pokretanje kontrole sake:
+$ rosrun robotiq_3f_gripper_control Robotiq3FGripperSimpleController.py
