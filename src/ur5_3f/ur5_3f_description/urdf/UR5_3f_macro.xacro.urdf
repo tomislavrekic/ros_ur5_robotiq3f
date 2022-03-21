@@ -335,12 +335,6 @@
     <parent link="wrist_3_link"/>
     <child link="tool0"/>
   </joint>
-  <!--  <link name="hand_anchor_link"/>
-  <joint name="hand_anchor_joint" type="fixed">
-    <parent link="base_link" />
-    <child link = "hand_anchor_link" />
-    <origin xyz="0.0 1.0 0.0" rpy="0.0 0.0 0.0" />
-  </joint>-->
   <!-- joint attaching parent link to robotiq hand -->
   <joint name="r3f_robotiq_hand_joint" type="fixed">
     <origin rpy="1.57079632679 0 0" xyz="0 0 0.055"/>
@@ -2108,8 +2102,6 @@
     <implicitSpringDamper>1</implicitSpringDamper>
   </gazebo>
   <!-- end of joint list -->
-  <!-- <xacro:include filename="/home/tomislav/Tomislav/ros_repos/ros_ur5_robotiq3f/src/ur5_3f/ur5_3f_description/urdf/robotiq_3f_gripper.transmission.xacro"/>
-    <xacro:robotiq_3f_gripper_transmission prefix="r3f_"/>-->
   <link name="world"/>
   <joint name="world_joint" type="fixed">
     <parent link="world"/>
