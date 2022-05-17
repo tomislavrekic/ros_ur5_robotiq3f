@@ -12,9 +12,7 @@ class ModelSpawn:
         self._robot = RobotCommander()
         
         rospy.sleep(1)
-
         self.ground_box_name = "ground_box"
-
         
         
     def _spawn_models(self):
