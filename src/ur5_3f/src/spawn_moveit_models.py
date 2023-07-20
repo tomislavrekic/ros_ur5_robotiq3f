@@ -76,7 +76,7 @@ class ModelSpawn:
         p_.pose.orientation = Quaternion(*q)
 
         # Table size is used from ur5_robotiq_85_manipulation/models/table/model.sdf
-        box_size_ = (2, 2, 0.2)
+        box_size_ = (3, 3, 0.2)
         self._scene.add_box(name, p_, box_size_)
 
 

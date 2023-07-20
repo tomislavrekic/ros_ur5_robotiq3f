@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- By default, we won't load or override the robot_description -->
+<!--  <arg name="load_robot_description" default="false"/>-->
+
+ 
+  <!-- By default, use the urdf location provided from the package -->
+<!--  <arg name="urdf_path" default="$(find ur5_3f)/ur5_3f_description/urdf/UR5_3f_macro.xacro.urdf"/>-->
+
+
+  <include file="$(find ur_robot_driver)/launch/ur5_bringup.launch">
+    <arg name="robot_ip" value="192.168.22.14"/>
+    <arg name="kinematics_config" value="/home/tomislav/Downloads/UR5_calibration.yaml"/>
+  </include>
+
+
+  <include file="$(find ur5_moveit_config)/launch/ur5_moveit_planning_execution.launch">
+   <!-- <arg name="limited" value="true"/>-->
+  </include>
+
+
+  <include file="$(find ur5_3f_moveit_config)/launch/moveit_rviz.launch">
+    <!--<arg name="config" value="true"/>-->
+  </include>
+
+  <!-- Run Rviz and load the default config to see the state of the move_group node -->
+<!--  <include file="$(find ur5_3f_moveit_config)/launch/moveit_rviz.launch">
+    <arg name="rviz_config" value="$(find ur5_3f_moveit_config)/launch/moveit.rviz"/>
+    <arg name="debug" value="$(arg debug)"/>
+  </include>-->
+
+
+  <!-- Start realsense camera -->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <arg name="enable_pointcloud" value="true"/>
+    <arg name="depth_width" value="640"/>
+    <arg name="depth_height" value="480"/>
+    <arg name="depth_fps" value="15"/>
+    <arg name="color_width" value="640"/>
+    <arg name="color_height" value="480"/>
+    <arg name="color_fps" value="15"/>
+    <arg name="align_depth" value="true"/>
+  </include>
+
+  <!-- connect to robotiq hand -->
+  <node name="gripper_tcp_node" pkg="robotiq_3f_gripper_control" type="Robotiq3FGripperTcpNode.py" args="192.168.22.11"/>
+
+  <!-- Add static frames for camera and etc -->
+  <node name="tf_static_added" pkg="ur5_3f" type="tf_static_camera.py"/>
+
+  <!-- Spawn rviz moveit models -->
+  <node name="spawn_models" pkg="ur5_3f" type="spawn_moveit_models.py" output="screen"/>
+
+
+  <!-- CUSTOM -->
+
+</launch>

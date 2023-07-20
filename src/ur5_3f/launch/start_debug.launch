@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <launch>
+  <!-- CUSTOM -->
+  <!--<env name="GAZEBO_MODEL_PATH" value="$(find ur5_3f)/models/"/>-->
+
+  <env name="GAZEBO_MODEL_PATH" value="/home/tomislav/projekti/ros_repos/ros_ur5_robotiq3f/src/ur5_3f/models/:$GAZEBO_MODEL_PATH"/>
+  <!-- CUSTOM -->
 
   <!-- By default, we do not start a database (it can be large) -->
   <arg name="db" default="false" />
@@ -29,7 +34,7 @@
   <arg name="urdf_path" default="$(find ur5_3f)/ur5_3f_description/urdf/UR5_3f_macro.xacro.urdf"/>
 
   <!-- launch the gazebo simulator and spawn the robot -->
-  <include file="$(find ur5_3f_moveit_config)/launch/gazebo.launch" >
+  <include file="$(find ur5_3f)/launch/gazebo_debug.launch" >
     <arg name="paused" value="$(arg paused)"/>
     <arg name="gazebo_gui" value="$(arg gazebo_gui)"/>
     <arg name="urdf_path" value="$(arg urdf_path)"/>
@@ -74,5 +79,8 @@
   <!-- CUSTOM -->
   <!-- Spawn rviz moveit models -->
   <node name="spawn_models" pkg="ur5_3f" type="spawn_moveit_models.py" output="screen"/>
+
+
+  <!-- CUSTOM -->
 
 </launch>

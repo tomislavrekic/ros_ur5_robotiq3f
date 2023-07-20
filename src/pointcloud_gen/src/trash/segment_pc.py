@@ -36,14 +36,13 @@ cyls_cloud = cloud_filtered.extract(indices, negative=True)
 print(cyls_cloud.size)
 
 euclid = pcl.EuclideanClusterExtraction()
-p.make
 #kdtr = pcl.KdTreeFLANN_PointXYZRGB(cyls_cloud)
 kdtree = pcl.KdTree(cloud_filtered)
 
 euclid.set_SearchMethod(kdtree)
 euclid.set_MinClusterSize(20)
-euclid.set_MaxClusterSize(500)
-euclid.set_ClusterTolerance(0.02)
+euclid.set_MaxClusterSize(2000)
+euclid.set_ClusterTolerance(0.5)
 ind = euclid.Extract()
 
 visual = vis.CloudViewing()

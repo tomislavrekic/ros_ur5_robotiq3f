@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="custom">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://table</uri>
+      <name>Table</name>
+      <pose>-0.6 0.0 0.0 0.0 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://kinect_custom</uri>
+      <name>kinect_custom</name>
+      <pose>-1.0 0.72 1.90 0.0 0.92 -1.570796</pose>
+    </include>
+    <include>
+      <uri>model://cyl_can</uri>
+      <pose>-1.02 -0.2 1.08 0.0 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://cyl_can</uri>
+      <pose>-1.08 0.22 1.08 0.0 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://cyl_can</uri>
+      <pose>-0.75 -0.025 1.08 0.0 0.0 0.0</pose>
+    </include>
+
+  </world>
+</sdf>
